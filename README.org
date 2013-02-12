@@ -1,0 +1,37 @@
+#+title: BIOCHEMICAL-molecule-Project
+#+author: Stratos Bichakis, Xristos Koutsouradis, Iannis Zannos, Aris Bezas
+
+Ένα Βιοχημικό μόριο είναι σε θέση να μας προσφέρει μία πληθώρα δεδομένων, τα οποία αφενώς μπορούν να χρησιμοποιηθούν αυτούσια (για την κατασκευή ένός γλυπτού ή ενός 3D μοντέλου) , αφετέρου κατόπιν προσεκτικής ανάγνωσης και χρησιμοποιώντας "μεταφορές" ,οι οποίες είναι θέμα αποφάσεων του καλλιτέχνη μπορούν να γίνουν δεδομένα άλλης φύσης, για παράδειγμα για την ηχητικοποίηση τους.  Σκοπός είναι φανεί ότι ο καλλιτέχνης δεν είναι ο ίδιος η "πήγη" της έμπνευσης αλλά το επίκεντρο της έπεξεργασίας των δεδομένων, τα οποία συνθέτει σε πληροφορία.  Σε δεύτερο επίπεδο η επεξεργασία και τροποποίηση των δεδομένων, μπορεί να προσφέρει στον ακροατή μία νέα "εμπειρική" σχέση με τη φύση, η οποία του είναι πιο οικεία. Η παρατήρηση μίας περίπλοκης δομής μπορεί, όταν συνδυαστεί με ένα ακουστικό σήμα, να γίνει πιο αντιληπτή.
+
+
+- https://github.com/earlab/BIOCHEMICAL-molecule-Project
+- [[http://extending.earlab.org/projects/Stratos-Bichakis/biochemical-molecule.html][official site]]
+
+* Installation notes
+- 1. Mac OSX 10.8.2
+- 2. of_v0073_osx_release
+- 3. XCode Version 4.5.1 (4G1004)
+  - You can use oF Project Generator with
+  - OSC addons
+- 4. Add https://github.com/openframeworks/ofxVectorMath to addons
+- 5. Fix flickering bug from [[http://forum.openframeworks.cc/index.php/topic,7753.msg36287.html#msg36287][forum]]
+  - 1 open ofAppGlutWindow.cpp
+  - 2 search replace GLUT_DOUBLE with GLUT_SINGLE
+  - 3 search replace glutSwapBuffers with glFlush. This will help with ofSetBackgroundAuto(false), but it will make ofSetBackgroundAuto(true) look bad.
+- 6. SuperCollider 3.6.2
+
+* TODO_Stuff
+1. Add XML Quark to SC_code έτσι ώστε να δουλεύει η εφαρμογή ανεξάρτητα απο τα Quarks.
+2. Δημιουργία αναλυτικού οδήγου βήμα-βήμα για την εκτέλεση της εφαρμογής (στο openFrameworks έχει γίνει).
+3. Το SC να διαβάει το XML αρχειο βάση σχετικής διεύθηνσης τύπου
+d = DOMDocument("./../03.Data/3SPX.xml");
+και όχι
+d = DOMDocument("/Users/takis/Projects/academic/publications/BIOCHEMICAL-molecule-Project/03.Data/3SPX.xml");
+
+* Other Notes
+- Hardware
+  - Arduino
+    - [[http://www.sparkfun.com/products/10736][Sparkfun 9DOF]]
+- Software
+  - Open Frameworks
+    - - [[http://arduino.cc/playground/Main/Smooth][Smoothing Function by Paul Badger]]

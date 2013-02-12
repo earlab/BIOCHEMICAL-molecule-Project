@@ -1,0 +1,5 @@
+#+title: openFrameworks-BIOCHEMICAL-molecule-Project
+#+author: Stratos Bichakis, Xristos Koutsouradis, Iannis Zannos, Aris Bezas
+
+Λόγω των διαφορετικώς πλατφόρμων στο φάκελο OF_code υπάρχουν δύο φάκελοι. Ο ένας περιέχει τον source code που χρησιμοποιείται στο project, και ο άλλος περιέχει τα Xcode project, QT project, Visual Basic project ανάλογα την πλατφόρμα που δουλεύει ο καθένας. Τα δεδομένα αντλούντε απο τον φάκελο "03.Data" που βρίσκεται πιο πάνω και περιέχει όλα τα δεδομένα που χρησιμοποιούνται στο έργο.
+  
