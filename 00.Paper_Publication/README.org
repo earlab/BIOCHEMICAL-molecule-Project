@@ -3,48 +3,47 @@
 
 
 Σχετικά με τον τίτλο 
-- 
 
-1. Περίληψη
-2. Introduction
-   - Περιγραφή δεδομένων
-     - http://en.wikipedia.org/wiki/Structural_biology
-3. Μεθοδολογία
-   1. Άντληση δεδομένων
-      - Σύγκριση τεχνικών supercollider και openFrameworks 
-   2. Τεχνικές ακουστοποίησης
-      - Βιβλιογραφικές αναφορές στις τεχνικές που χρησιμοποιούμε
-      - Aνάλυση τεχνικων μέσω προγραμματισμού (SuperCollider)
-      - Συνδιασμών αυτών για το τελικό αποτέλεσμα. 
-   3. Τεχνικές οπτικοποίησης (XK)
-      - Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
-	- [[http://www.pdb.org/pdb/static.do?p=software/software_links/molecular_graphics.html][Molecular Graphics Software Links]]
-      - Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
-	- Intreaction
-	- Open Source
-      - Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
-   4. Συγχρονισμός
-      - OSC
-      - Συζήτηση για το open source και γιατι είναι καλύτερο
-   5. Πλοήγηση στα δεδομένα
-      - Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
-      - Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
-      - Ρυθμός διαβάσματος δεδομένων
-4. Conclusions
-   - Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
-   - Θα μπορούσε να είναι perfromance - installation - συζήτηση για τα συμπεράσματα
-   - Τι αποτέλεσμα επιζητάς (αισθητικό - επιστημονικό - λειτουργικό κ.α) (ΑΒ)
-5. Acknowledgment
-   - This research was conducted in k.a.
-6. References
-   1. [[http://sonification.de/handbook/][The Sonification Handbook]] edited by Thomas Hermann, Andy Hunt, John G. Neuhoff (chapter 5, 7, 11, 14)
-7. Appendix
-   1. SC code
-   2. oF code (visualization)
-
+* 1. Περίληψη
+* 2. Introduction
+**   1. Περιγραφή δεδομένων
+***     1.  http://en.wikipedia.org/wiki/Structural_biology
+* 3. Μεθοδολογία
+**   1. Άντληση δεδομένων
+***      1. Σύγκριση τεχνικών supercollider και openFrameworks 
+**   2. Τεχνικές ακουστοποίησης
+***      1. Βιβλιογραφικές αναφορές στις τεχνικές που χρησιμοποιούμε
+***      2. Aνάλυση τεχνικων μέσω προγραμματισμού (SuperCollider)
+***      3. Συνδιασμών αυτών για το τελικό αποτέλεσμα. 
+**   3. Τεχνικές οπτικοποίησης (XK)
+***     1. Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
+*** 	2. [[http://www.pdb.org/pdb/static.do?p=software/software_links/molecular_graphics.html][Molecular Graphics Software Links]]
+***     3. Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
+*** 	4. Intreaction
+*** 	5. Open Source
+***     3. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
+**   4. Συγχρονισμός
+***      1. OSC
+***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
+**   5. Πλοήγηση στα δεδομένα
+***      1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
+***      2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
+***      3. Ρυθμός διαβάσματος δεδομένων
+* 4. Conclusions
+**   1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
+**   2. Θα μπορούσε να είναι perfromance - installation - συζήτηση για τα συμπεράσματα
+**   3. Τι αποτέλεσμα επιζητάς (αισθητικό - επιστημονικό - λειτουργικό κ.α) (ΑΒ)
+* 5. Acknowledgment
+**   1. This research was conducted in k.a.
+* 6. References
+**   1. [[http://sonification.de/handbook/][The Sonification Handbook]] edited by Thomas Hermann, Andy Hunt, John G. Neuhoff (chapter 5, 7, 11, 14)
+* 7. Appendix
+**   1. SC code
+**   2. oF code (visualization)
 
 
-Sonification technics
+* Other Stuff
+** Sonification technics
 - Parameter Mapping
 - Auditory Icons
 - Earcons
