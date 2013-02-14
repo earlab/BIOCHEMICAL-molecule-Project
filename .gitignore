@@ -1,5 +1,6 @@
 /documentation/
 
+*.DC_Store
 *.org~
 
 *.gitignore~

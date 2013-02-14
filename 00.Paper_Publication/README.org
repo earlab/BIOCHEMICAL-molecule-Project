@@ -2,7 +2,12 @@
 #+author: Stratos Bichakis, Xristos Koutsouradis, Iannis Zannos, Aris Bezas
 
 
-Σχετικά με τον τίτλο 
+
+* Σχετικά με τον τίτλο 
+Ο τίτλος πρέπει να είναι πιο κατάλληλος, συγκεκριμένα:
+- πρέπει να φαίνεται ότι ο στόχος είναι η ανάπτυξη ενός έργου
+- πρέπει να φαίνεται ότι η πηγή των δεδεδομένων προέρχεται από την structural biology
+- πρέπει να φαίνεται ότι το έργο περιλαμβάνει visuallisation 
 
 * 1. Περίληψη
 * 2. Introduction
@@ -33,6 +38,7 @@
 **   1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
 **   2. Θα μπορούσε να είναι perfromance - installation - συζήτηση για τα συμπεράσματα
 **   3. Τι αποτέλεσμα επιζητάς (αισθητικό - επιστημονικό - λειτουργικό κ.α) (ΑΒ)
+- Summary about aesthetics and practices (aris)
 * 5. Acknowledgment
 **   1. This research was conducted in k.a.
 * 6. References
