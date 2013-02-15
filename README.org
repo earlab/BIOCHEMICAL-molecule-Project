@@ -21,12 +21,9 @@
 - 6. SuperCollider 3.6.2
 
 * TODO_Stuff
-1. Add XML Quark to SC_code έτσι ώστε να δουλεύει η εφαρμογή ανεξάρτητα απο τα Quarks.
-2. Δημιουργία αναλυτικού οδήγου βήμα-βήμα για την εκτέλεση της εφαρμογής (στο openFrameworks έχει γίνει).
-3. Το SC να διαβάει το XML αρχειο βάση σχετικής διεύθηνσης τύπου
-d = DOMDocument("./../03.Data/3SPX.xml");
-και όχι
-d = DOMDocument("/Users/takis/Projects/academic/publications/BIOCHEMICAL-molecule-Project/03.Data/3SPX.xml");
+1. Δημιουργία σημειώσεων στα README.org σε κάθε φάκελο έτσι ώστε να μπορούν όλοι που συνεισφέρουν να βλέπουν τις αλλαγές και το πρέπει να γίνει.
+2. Add XML Quark to SC_code έτσι ώστε να δουλεύει η εφαρμογή ανεξάρτητα απο τα Quarks.
+3. Δημιουργία αναλυτικού οδήγου βήμα-βήμα για την εκτέλεση της εφαρμογής (στο openFrameworks έχει γίνει).
 
 * Other Notes
 - Hardware
