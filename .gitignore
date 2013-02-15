@@ -3,6 +3,8 @@
 /documentation/
 
 *.DC_Store
+*.DS_Store
+
 *.org~
 
 *.gitignore~
