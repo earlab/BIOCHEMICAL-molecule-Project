@@ -1,9 +1,7 @@
 #+title: SuperCollider-BIOCHEMICAL-molecule-Project
 #+author: Stratos Bichakis, Xristos Koutsouradis, Iannis Zannos, Aris Bezas
 
-- Αντι να τοποθετηθεί όλος ο φάκελος στα Extensions του SuperCollider, μπορεί αντι αυτού να δημιουργηθεί συντόμευση (όλου του φακέλου "BIOCHEMICAL-molecule-Project_Alias") και να τοποθετηθεί αυτή[1].
-- Χρήση του XML Quark https://github.com/supercollider-quarks/XML
-
-
-
-[1] ΑΒ_note: Στο δικό μου δεν λειτουργεί οταν την δημιουργώ με drag and drop κρατόντας πατημένο το Cmd και το Alt, αλλα πρε΄πει να την δημιουργήσω με δεξί κλίκ.
+- Clone the BIOCHEMICAL-molecule-Project at SuperCollider/Extensions
+- Use relative path Platform.userExtensionDir.asString ++ "/BIOCHEMICAL-molecule-Project/03.Data/
+example:
+d = DOMDocument(Platform.userExtensionDir.asString ++ "/BIOCHEMICAL-molecule-Project/03.Data/3SPX.xml");

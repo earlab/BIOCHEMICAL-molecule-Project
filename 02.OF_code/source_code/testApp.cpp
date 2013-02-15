@@ -33,7 +33,7 @@ void testApp::setup(){
     
     //Relative path 03.Data folder fro the shaders
     //BIOCHEMICAL-molecule-Project/02.OF_code/XcodeProjects/Biochemical_Molecule_AB/bin/data
-    shader.setupShaderFromFile(GL_FRAGMENT_SHADER, "./../../../../../03.Data/shaders/noise.frag");
+    shader.setupShaderFromFile(GL_FRAGMENT_SHADER, "./../../../../../../03.Data/shaders/noise.frag");
 	shader.linkProgram();
 	
 	//Allocate the texture and the fbos
