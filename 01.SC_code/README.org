@@ -1,7 +1,7 @@
 #+title: SuperCollider-BIOCHEMICAL-molecule-Project
 #+author: Stratos Bichakis, Xristos Koutsouradis, Iannis Zannos, Aris Bezas
 
-- Αντι να τοποθετηθεί όλος ο φάκελος στα Extensions του SuperCollider, μπορεί αντι αυτού να δημιουργηθεί συντόμευση και να τοποθετηθεί αυτή[1].
+- Αντι να τοποθετηθεί όλος ο φάκελος στα Extensions του SuperCollider, μπορεί αντι αυτού να δημιουργηθεί συντόμευση (όλου του φακέλου "BIOCHEMICAL-molecule-Project_Alias") και να τοποθετηθεί αυτή[1].
 - Χρήση του XML Quark https://github.com/supercollider-quarks/XML
 
 
