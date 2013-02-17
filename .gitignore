@@ -2,6 +2,9 @@
 
 /documentation/
 
+*.gitignore#
+*.#.gitignore
+*.#README.org
 *.DC_Store
 *.DS_Store
 
