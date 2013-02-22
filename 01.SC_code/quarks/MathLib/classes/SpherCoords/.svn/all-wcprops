@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/quarks/!svn/ver/2129/MathLib/classes/SpherCoords
+END
+extPolar.sc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/quarks/!svn/ver/2066/MathLib/classes/SpherCoords/extPolar.sc
+END
+extSimpleNumber.sc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/quarks/!svn/ver/2066/MathLib/classes/SpherCoords/extSimpleNumber.sc
+END
+Cartesian.sc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/quarks/!svn/ver/2066/MathLib/classes/SpherCoords/Cartesian.sc
+END
+extSequenceableCollection.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/quarks/!svn/ver/2066/MathLib/classes/SpherCoords/extSequenceableCollection.sc
+END
+Spherical.sc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/quarks/!svn/ver/2066/MathLib/classes/SpherCoords/Spherical.sc
+END
