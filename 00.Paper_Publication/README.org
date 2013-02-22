@@ -10,12 +10,13 @@
 *Suggestions*
 - Real-time AudioVisual Navigation to Biochemical Molecule Structure
 
-
 * 1. Περίληψη
 * 2. Introduction
-**   1. Περιγραφή δεδομένων
-***     1.  http://en.wikipedia.org/wiki/Structural_biology
-**   2. Visualizations & Sonification
+** 1. Ιστορική Αναδρομή
+1. [[http://medienhaus.udk-berlin.de/pages/Dr._Alberto_De_Campo][Dr. Alberto De Campo]] , sound by ear, quark at SuperCollider, [[http://albertodecampo.net/][personal site]], The SuperCollider Book chapter 13
+** 2. Περιγραφή δεδομένων
+***  1.  http://en.wikipedia.org/wiki/Structural_biology
+** 3. Visualizations & Sonification
 The classical definition of visualization is “the process of forming a mental image of some scene as described” [71, p. 320]. So, by visualization we mean the process by which mental images and cognitions (what we call visualizations are formed from the reading of external representations of data. Those representations may be visual, auditory, or even haptic. Data sets can be repositories of data, such as files, tables, etc. or real-time streams of data events such as would occur in a process monitoring application.
 - *AaronQuigley.Aestheticsoflarge-scalerelationalinformationvisualizationinpractice.InPaulA.Fishwick, editor, Aesthetic Computing, LEONARDO, pages 315–333. MIT Press, Cambridge, MA, 2006.*
 
@@ -25,20 +26,21 @@ The classical definition of visualization is “the process of forming a mental 
 -What is its intended purpose?
 
 * 3. Μεθοδολογία
-**   1. Άντληση δεδομένων
+** 1. Άντληση δεδομένων ()
 
 1. Σύγκριση τεχνικών supercollider και openFrameworks
-2. 
+2. XML parsing
 3. 
 4. 
 
 
 - *Fry, Data Visualization, 2008 chapter.9*
-**   2. Τεχνικές ακουστοποίησης
+
+** 2. Τεχνικές ακουστοποίησης
 ***      1. Βιβλιογραφικές αναφορές στις τεχνικές που χρησιμοποιούμε
 ***      2. Aνάλυση τεχνικων μέσω προγραμματισμού (SuperCollider)
 ***      3. Συνδιασμών αυτών για το τελικό αποτέλεσμα. 
-**   3. Τεχνικές οπτικοποίησης (XK)
+** 3. Τεχνικές οπτικοποίησης (XK)
 ***     1. Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
 **** 	2. [[http://www.pdb.org/pdb/static.do?p=software/software_links/molecular_graphics.html][Molecular Graphics Software Links]]
 ***     3. Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
@@ -51,24 +53,24 @@ The classical definition of visualization is “the process of forming a mental 
 *** 	4. Intreaction
 *** 	5. Open Source
 ***     3. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
-**   4. Συγχρονισμός
+** 4. Συγχρονισμός (AB)
 ***      1. OSC
 ***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
-**   5. Πλοήγηση στα δεδομένα
+** 5. Πλοήγηση στα δεδομένα
 ***      1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
 ***      2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
 ***      3. Ρυθμός διαβάσματος δεδομένων
 * 4. Conclusions
-**   1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
-**   2. Είναι perfromance - installation και τα δύο (συζήτηση για τα συμπεράσματα)
-**   3. Summary about aesthetics and practices (aris)
+** 1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
+** 2. Είναι perfromance - installation και τα δύο (συζήτηση για τα συμπεράσματα)
+** 3. Summary about aesthetics and practices (AB)
 
 *Greek*
  Στο συγκεκριμένο έργο γίνεται η προσπάθεια  παρουσίασης ενός βιομόριου (μιάς πρωτείνης). Στόχος αυτής της παρουσίασης είναι το αισθητικό αποτέλεσμα. Η φύση και κατ' επέκταση οι θετικές επιστήμες αποτελούν έμπνευση και εργαλείο στην ακπλήρωση του παραπάνου σκοπού.
  Χρησιμοποιόντας τον όρο indexically, που εισήγαγαν οι Vickers και Hogg, τόσο στην ακουστοποίηση όσο και στην οπτικοποίηση, ως το μέτρο που καθορίζει την τυχαιότητα (arbitrariness) στη χαρτογράφηση, το συγκεκριμένο έργο αναπτύχθηκε στηριζόμενο στην ελευθερία που προσδίδει η χαμηλή indexically με σκοπό την συμβολική και ερμηνευτική χαρτογράφηση (symbolic and interpretative mapping). Μέσα απο την διαδικασία μπορούμε να επιβεβαιώσουμε την διαπίστωση των Keffe et al τοι τα αποτελέσματα με τη συνειδητή χρήση χαμηλής indexically είναι πιο φρουτώδη, περίεργα και μη αναμενόμενα. Αναφέροντας στο σημείο αυτό τα λόγια του John Tukey "The greatest value of a picture is when it forces us to notice what we never expected to see" και επεκτείνοντας το και στον ήχο, η οπτικοποίηση και ακουστοποίηση of the biochemical molecule is trying through the prism of artistic prospective is presenting unknown characteristics and fetures of the molecule structure.   
 
 *English*
-This work is an intent to present an biochemical molecule. The meta of this presentation is a aesthetic  
+This work is an intent to present an biochemical molecule. The meta of this presentation is an aesthetic  
 
 *** References
 references chapter 7 page 165
@@ -126,12 +128,12 @@ John Dewey has pointed out that the unity of aesthetics and ethics is in fact re
 - http://en.wikipedia.org/wiki/Aesthetics#Aesthetic_ethics
 
 * 5. Acknowledgment
-**   1. This research was conducted in summer school Extending July 2012 and .-.-.
+** 1. This research was conducted in summer school Extending July 2012 and .-.-.
 * 6. References
-**   1. [[http://sonification.de/handbook/][The Sonification Handbook]] edited by Thomas Hermann, Andy Hunt, John G. Neuhoff (chapter 5, 7, 11, 14)
+** 1. [[http://sonification.de/handbook/][The Sonification Handbook]] edited by Thomas Hermann, Andy Hunt, John G. Neuhoff (chapter 5, 7, 11, 14)
 * 7. Appendix
-**   1. SC code
-**   2. oF code (visualization)
+** 1. SC code
+** 2. oF code (visualization)
 
 * Other Stuff
 ** Sonification technics
@@ -139,4 +141,13 @@ John Dewey has pointed out that the unity of aesthetics and ethics is in fact re
 - Auditory Icons:Auditory icons mimic everyday non-speech sounds that we might be familiar with from our everyday experience of the real world, hence the meaning of the sounds seldom has to be learnt as they metaphorically draw upon our previous experiences. For example, deleting a document might be represented by the sound of crumpling a piece of paper; an application error may be represented by the sound of breaking glass or a similar destructive sound (Eoin Brazil and Mikael Fernström, Sonification Design and Aesthetics, p.325)
 - Earcons
 - chapter 11 interacting sonification
+
+** Other Conferences
+- [[http://www.kevinsim.co.uk/evostar2013/cfpEvoMUSART.html][EvoMusart]] deadline at 11 November 2012
+- [[http://studiolabproject.eu/project/synthetic-biology/yours-synthetically][Ars Electronica]]
+
+** notes from meeting <2013-02-22 Fri>
+
+- MathLib quark για καρτεσιανές συντεταγμένες
+- [[http://www.proteinstructures.com/Structure/Structure/Ramachandran-plot.html][Torsion Angles and the Ramachandran Plot]]
 
