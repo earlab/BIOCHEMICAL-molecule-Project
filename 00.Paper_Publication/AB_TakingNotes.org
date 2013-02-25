@@ -1,68 +1,67 @@
 #+title: Taking Notes
 #+author: Stratos Bichakis(SB), Xristos Koutsouradis(XK), Iannis Zannos(IZ), Aris Bezas(AB)
 
-* Σχετικά με τον τίτλο 
+* 0. Σχετικά με τον τίτλο 
 Ο τίτλος πρέπει να είναι πιο κατάλληλος, συγκεκριμένα:
 - πρέπει να φαίνεται ότι ο στόχος είναι η ανάπτυξη ενός έργου
 - πρέπει να φαίνεται ότι η πηγή των δεδεδομένων προέρχεται από την structural biology
 - πρέπει να φαίνεται ότι το έργο περιλαμβάνει visuallisation 
 
 *Suggestions*
-- Real-time AudioVisual Navigation to Biochemical Molecule Structure
+RANBiMoS - Real-time AudioVisual Navigation of Biochemical Molecule Structure
 
 * 1. Περίληψη
 * 2. Introduction
 ** 1. Ιστορική Αναδρομή
 1. [[http://medienhaus.udk-berlin.de/pages/Dr._Alberto_De_Campo][Dr. Alberto De Campo]] , sound by ear, quark at SuperCollider, [[http://albertodecampo.net/][personal site]], The SuperCollider Book chapter 13
-** 2. Περιγραφή δεδομένων
+** 2. Περιγραφή δεδομένων (SB)
 ***  1.  http://en.wikipedia.org/wiki/Structural_biology
 ** 3. Visualizations & Sonification
 The classical definition of visualization is “the process of forming a mental image of some scene as described” [71, p. 320]. So, by visualization we mean the process by which mental images and cognitions (what we call visualizations are formed from the reading of external representations of data. Those representations may be visual, auditory, or even haptic. Data sets can be repositories of data, such as files, tables, etc. or real-time streams of data events such as would occur in a process monitoring application.
 - *AaronQuigley.Aestheticsoflarge-scalerelationalinformationvisualizationinpractice.InPaulA.Fishwick, editor, Aesthetic Computing, LEONARDO, pages 315–333. MIT Press, Cambridge, MA, 2006.*
 
 “Drawing is speaking to the eye; talking is painting to the ear.” 
-- Joseph Jou- bert
+- Joseph Joubert
 
 -What is its intended purpose?
 
 * 3. Μεθοδολογία
-** 1. Άντληση δεδομένων
+** 1. Άντληση δεδομένων (XK - SB - SB)
 
 1. Σύγκριση τεχνικών supercollider και openFrameworks
-2. 
+2. XML parsing
 3. 
 4. 
 
 
 - *Fry, Data Visualization, 2008 chapter.9*
-** 2. Τεχνικές ακουστοποίησης
+** 2. Τεχνικές ακουστοποίησης (SB)
 ***      1. Βιβλιογραφικές αναφορές στις τεχνικές που χρησιμοποιούμε
 ***      2. Aνάλυση τεχνικων μέσω προγραμματισμού (SuperCollider)
 ***      3. Συνδιασμών αυτών για το τελικό αποτέλεσμα. 
-** 3. Τεχνικές οπτικοποίησης (XK)
-***     1. Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
+** 3. Τεχνικές οπτικοποίησης - Visualization Practices (XK-AB)
+*** 1. Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
 **** 	2. [[http://www.pdb.org/pdb/static.do?p=software/software_links/molecular_graphics.html][Molecular Graphics Software Links]]
-***     3. Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
+*** 2. Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
 Τα περιβάλλοντα για σύνθεση γραφικών σε πραγματικό χρόνο μπορούν να χωριστούν γενικά σε δυο στρατόπεδα βάση τον σχεδιασμό τους. Αυτά που χρησιμοποιούν γραφική επιφάνεια διεπαφής (Graphical User Interface) και εκείνα που έχουν ως βάση το κείμενο (text-based) και χρησιμοποιούν γλώσσες προγραμματισμού (Wakefield 2008). Η συγκεκριμένη έρευνα θα ασχοληθεί με τα δεύτερα για δύο λόγους:
 1. Σαφή λογική σύνθεσης με τη δημιουργία συστήματος το οποίο έχει σαφή βαθμό συνοχής.
 2. Παρέχουν την δυνατότητα στους συνθέτες για εκτενή έλεγχο σε περισσότερες διεργασίες απ' ότι στα πρώτα (Roads 2004).   
 
 Δεν επιλέγουμε κάποιο απο τα ήδη υπάρχοντα για την χαρά της δημιουργίας και την ελευθερία που αυτή προσδίδει στο τελικό αποτέλεσμα.
 
-*** 	4. Intreaction
-*** 	5. Open Source
-***     3. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
-** 4. Συγχρονισμός
+*** 3. Intreaction
+*** 4. Open Source
+*** 5. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
+*** 6. Που αποσκοπεί;
+** 4. Συγχρονισμός (AB)
 ***      1. OSC
 ***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
-** 5. Πλοήγηση στα δεδομένα
+** 5. Πλοήγηση στα δεδομένα (XK-AB)
 ***      1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
 ***      2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
 ***      3. Ρυθμός διαβάσματος δεδομένων
 * 4. Conclusions
-** 1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
-** 2. Είναι perfromance - installation και τα δύο (συζήτηση για τα συμπεράσματα)
-** 3. Summary about aesthetics and practices (aris)
+**  Summary about aesthetics and practices (AB)
 
 *Greek*
  Στο συγκεκριμένο έργο γίνεται η προσπάθεια  παρουσίασης ενός βιομόριου (μιάς πρωτείνης). Στόχος αυτής της παρουσίασης είναι το αισθητικό αποτέλεσμα. Η φύση και κατ' επέκταση οι θετικές επιστήμες αποτελούν έμπνευση και εργαλείο στην ακπλήρωση του παραπάνου σκοπού.
@@ -125,6 +124,7 @@ Simulation vs. Theory-Theory and Social Cognition topics can be usefull
 
 John Dewey has pointed out that the unity of aesthetics and ethics is in fact reflected in our understanding of behaviour being "fair" - the word having a double meaning of attractive and morally acceptable. More recently, James Page has suggested that aesthetic ethics might be taken to form a philosophical rationale for peace education.
 - http://en.wikipedia.org/wiki/Aesthetics#Aesthetic_ethics
+**  Είναι perfromance τι σημαίνει αυτό, τι προδιαγραφές απιατούνται κ.α.
 
 * 5. Acknowledgment
 ** 1. This research was conducted in summer school Extending July 2012 and .-.-.
@@ -134,7 +134,7 @@ John Dewey has pointed out that the unity of aesthetics and ethics is in fact re
 ** 1. SC code
 ** 2. oF code (visualization)
 
-* Other Stuff
+* 8. Other Stuff
 ** Sonification technics
 - Parameter Mapping
 - Auditory Icons:Auditory icons mimic everyday non-speech sounds that we might be familiar with from our everyday experience of the real world, hence the meaning of the sounds seldom has to be learnt as they metaphorically draw upon our previous experiences. For example, deleting a document might be represented by the sound of crumpling a piece of paper; an application error may be represented by the sound of breaking glass or a similar destructive sound (Eoin Brazil and Mikael Fernström, Sonification Design and Aesthetics, p.325)

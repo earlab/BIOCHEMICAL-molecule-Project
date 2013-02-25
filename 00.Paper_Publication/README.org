@@ -53,7 +53,7 @@ The classical definition of visualization is “the process of forming a mental 
 *** 	4. Intreaction
 *** 	5. Open Source
 ***     3. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
-** 4. Συγχρονισμός (AB)
+** 4. Συγχρονισμός
 ***      1. OSC
 ***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
 ** 5. Πλοήγηση στα δεδομένα
@@ -63,7 +63,7 @@ The classical definition of visualization is “the process of forming a mental 
 * 4. Conclusions
 ** 1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
 ** 2. Είναι perfromance - installation και τα δύο (συζήτηση για τα συμπεράσματα)
-** 3. Summary about aesthetics and practices (AB)
+** 3. Summary about aesthetics and practices (aris)
 
 *Greek*
  Στο συγκεκριμένο έργο γίνεται η προσπάθεια  παρουσίασης ενός βιομόριου (μιάς πρωτείνης). Στόχος αυτής της παρουσίασης είναι το αισθητικό αποτέλεσμα. Η φύση και κατ' επέκταση οι θετικές επιστήμες αποτελούν έμπνευση και εργαλείο στην ακπλήρωση του παραπάνου σκοπού.
