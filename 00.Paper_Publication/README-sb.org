@@ -1,0 +1,142 @@
+#+title: Taking Notes
+#+author: Stratos Bichakis(SB), Xristos Koutsouradis(XK), Iannis Zannos(IZ), Aris Bezas(AB)
+
+* Σχετικά με τον τίτλο 
+Ο τίτλος πρέπει να είναι πιο κατάλληλος, συγκεκριμένα:
+- πρέπει να φαίνεται ότι ο στόχος είναι η ανάπτυξη ενός έργου
+- πρέπει να φαίνεται ότι η πηγή των δεδεδομένων προέρχεται από την structural biology
+- πρέπει να φαίνεται ότι το έργο περιλαμβάνει visuallisation 
+
+*Suggestions*
+- Real-time AudioVisual Navigation to Biochemical Molecule Structure
+
+
+* 1. Περίληψη
+* 2. Introduction
+**   1. Περιγραφή δεδομένων
+***     1.  http://en.wikipedia.org/wiki/Structural_biology
+**   2. Visualizations & Sonification
+The classical definition of visualization is “the process of forming a mental image of some scene as described” [71, p. 320]. So, by visualization we mean the process by which mental images and cognitions (what we call visualizations are formed from the reading of external representations of data. Those representations may be visual, auditory, or even haptic. Data sets can be repositories of data, such as files, tables, etc. or real-time streams of data events such as would occur in a process monitoring application.
+- *AaronQuigley.Aestheticsoflarge-scalerelationalinformationvisualizationinpractice.InPaulA.Fishwick, editor, Aesthetic Computing, LEONARDO, pages 315–333. MIT Press, Cambridge, MA, 2006.*
+
+“Drawing is speaking to the eye; talking is painting to the ear.” 
+- Joseph Jou- bert
+
+-What is its intended purpose?
+
+* 3. Μεθοδολογία
+**   1. Άντληση δεδομένων
+
+1. Σύγκριση τεχνικών supercollider και openFrameworks
+2. 
+3. 
+4. 
+
+
+- *Fry, Data Visualization, 2008 chapter.9*
+**   2. Τεχνικές ακουστοποίησης
+***      1. Βιβλιογραφικές αναφορές στις τεχνικές που χρησιμοποιούμε
+***      2. Aνάλυση τεχνικων μέσω προγραμματισμού (SuperCollider)
+***      3. Συνδιασμών αυτών για το τελικό αποτέλεσμα. 
+**   3. Τεχνικές οπτικοποίησης (XK)
+***     1. Βιβλιογραφικές - λογισμικές αναφορές σε παρελθοντικές Protein Visualizations
+**** 	2. [[http://www.pdb.org/pdb/static.do?p=software/software_links/molecular_graphics.html][Molecular Graphics Software Links]]
+***     3. Γιατι δεν χρησιμοποιούμε κάποιο υπαρχων
+Τα περιβάλλοντα για σύνθεση γραφικών σε πραγματικό χρόνο μπορούν να χωριστούν γενικά σε δυο στρατόπεδα βάση τον σχεδιασμό τους. Αυτά που χρησιμοποιούν γραφική επιφάνεια διεπαφής (Graphical User Interface) και εκείνα που έχουν ως βάση το κείμενο (text-based) και χρησιμοποιούν γλώσσες προγραμματισμού (Wakefield 2008). Η συγκεκριμένη έρευνα θα ασχοληθεί με τα δεύτερα για δύο λόγους:
+1. Σαφή λογική σύνθεσης με τη δημιουργία συστήματος το οποίο έχει σαφή βαθμό συνοχής.
+2. Παρέχουν την δυνατότητα στους συνθέτες για εκτενή έλεγχο σε περισσότερες διεργασίες απ' ότι στα πρώτα (Roads 2004).   
+
+Δεν επιλέγουμε κάποιο απο τα ήδη υπάρχοντα για την χαρά της δημιουργίας και την ελευθερία που αυτή προσδίδει στο τελικό αποτέλεσμα.
+
+*** 	4. Intreaction
+*** 	5. Open Source
+***     3. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
+**   4. Συγχρονισμός
+***      1. OSC
+***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
+**   5. Πλοήγηση στα δεδομένα
+***      1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
+***      2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
+***      3. Ρυθμός διαβάσματος δεδομένων
+* 4. Conclusions
+**   1. Σχολιασμός λειτουργικής και αισθητικής πλευράς (5,6 κεφάλαια Sonification Handbook, the big debate at sonification)
+**   2. Είναι perfromance - installation και τα δύο (συζήτηση για τα συμπεράσματα)
+**   3. Summary about aesthetics and practices (aris)
+
+*Greek*
+ Στο συγκεκριμένο έργο γίνεται η προσπάθεια  παρουσίασης ενός βιομόριου (μιάς πρωτείνης). Στόχος αυτής της παρουσίασης είναι το αισθητικό αποτέλεσμα. Η φύση και κατ' επέκταση οι θετικές επιστήμες αποτελούν έμπνευση και εργαλείο στην ακπλήρωση του παραπάνου σκοπού.
+ Χρησιμοποιόντας τον όρο indexically, που εισήγαγαν οι Vickers και Hogg, τόσο στην ακουστοποίηση όσο και στην οπτικοποίηση, ως το μέτρο που καθορίζει την τυχαιότητα (arbitrariness) στη χαρτογράφηση, το συγκεκριμένο έργο αναπτύχθηκε στηριζόμενο στην ελευθερία που προσδίδει η χαμηλή indexically με σκοπό την συμβολική και ερμηνευτική χαρτογράφηση (symbolic and interpretative mapping). Μέσα απο την διαδικασία μπορούμε να επιβεβαιώσουμε την διαπίστωση των Keffe et al τοι τα αποτελέσματα με τη συνειδητή χρήση χαμηλής indexically είναι πιο φρουτώδη, περίεργα και μη αναμενόμενα. Αναφέροντας στο σημείο αυτό τα λόγια του John Tukey "The greatest value of a picture is when it forces us to notice what we never expected to see" και επεκτείνοντας το και στον ήχο, η οπτικοποίηση και ακουστοποίηση of the biochemical molecule is trying through the prism of artistic prospective is presenting unknown characteristics and fetures of the molecule structure.   
+
+*English*
+This work is an intent to present an biochemical molecule. The meta of this presentation is a aesthetic  
+
+*** References
+references chapter 7 page 165
+Sonification Design and Aesthetics
+Stephen Barrass and Paul Vickers
+
+Form follows function. Form doesn’t follow data. Data is incongruent by nature. Form follows a purpose, and in the case of Information Visualization, Form follows Revelation.
+— MANUEL LIMA, INFORMATION VISUALIZATION MANIFESTO, 2009 ([[http://www.visualcomplexity.com/vc/blog/?p=644][Information Visualization Manifesto]])
+
+The greatest value of a picture is when it forces us to notice what we never expected to see. 
+FA: from this point of view the visualization of the biochemical molecule is trying through the prism of artistic prospective to present unknown characteristics and fetures of the molecule structure.  
+—John Tukey
+
+There are clear parallels between the composer’s role in AD and the graphic artist’s role in data visualization.
+— GREGORY KRAMER, AUDITORY DISPLAY,1994 [49, PP. 52–53]
+
+When the intention of the composer shifts to the revelation of the phenomenon, the work crosses into the realm of sonification.
+- Stephen Barrass and Paul Vickers, Sonification Design and Aesthetics, p.146
+
+Vickers and Hogg introduced to sonification discourse the concept of indexicality.13 Something (a gesture, an utterance, a sign, etc.) that is indexical points to (indicates) some other thing that is external (an entity, an idea, etc.). In sonification practice indexicality becomes a measure of the arbitrariness of a mapping (in semiotic terms an indexical signifier is non-arbitrary and has a direct connection (physically or causally) to that which it is signifying . In sonification it is the data that makes the sound (parameter-based sonification) or user interactions with the data that make the sound (model-based sonification). A sonification system exhibiting high indexicality is one in which the sound is derived directly from the data (for example, through the use of direct data-to-sound mappings). Low indexicality arises from more symbolic or interpretative mappings.
+Keefe et al. discovered that getting artists and visual designers to help with a visualiza- tion project at the design level from the outset is key and bears much more fruit than using them for “turning the knobs of existing visualization techniques” [p. 23]. Artists, they say, routinely “provide a unique source of visual insight and creativity for tackling difficult visual problems”; they do more than “merely making a picture pretty or clear for publication”. For Keefe et al. the integration of function and aesthetics is a desirable challenge. It is the artist working within the tight constraints of programmatic data mappings and the computer scientist facing the issues of visual design that creates the opportunity for them to work together “to design novel visual techniques for exploring data and retesting hypotheses”. For an example of this at work in sonification design, see Stallman et al.  who used a composer to help in the design of an auditory display for an automated telephone queue management application.
+Flying Ants Team are not consist from  artists-designers and  developers-programmers. All the members are in the beetwen field of creatine coding. (AB)
+- Stephen Barrass and Paul Vickers, Sonification Design and Aesthetics, p.157
+
+*TODO* 7.3.2 Aesthetics as a guide p.177
+The purpose is to address the issues of functionality and aesthetics in audiovisual navigation by advocating a design-oriented approach that integrates scientific and artistic methods and techniques.
+- Flying Ants
+
+The pioneering researchers in this area were brought together in 1992 by Gregory Kramer who founded the International Conference for Auditory Display (ICAD).2 In the introduction to the proceedings of that meeting Albert Bregman outlined a near-future scenario in which an executive in a shoe company listens to sales data to hear trends over the past twelve months. Interestingly, this scenario remains futuristic, though not for technological reasons.3 The participants at that first meeting introduced most of the sonification techniques that are current today, including audification, beacons, musical structure, gestalt stream-based heuristics, multivariate granular synthesis, and parameter mapping.
+- Stephen Barrass and Paul Vickers, Sonification Design and Aesthetics, p.147
+
+“Sonification is the design of sounds to support an information processing activity”
+- Stephen Barrass. TaDa!demonstrationsofauditoryinformationdesign.InStevenP.FrysingerandGregory Kramer, editors, ICAD ’96 Third International Conference on Auditory Display, pages 17–24, Palo Alto, 1996. Xerox PARC, Palo Alto, CA 94304.
+
+To some extent however this elegance, which makes data visualisation so imme- diately compelling, also represents a challenge. It’s possible that the translation of data, networks and relationships into visual beauty becomes an end in itself and the field becomes a category of fine art. No harm in that perhaps. But as a strategist one wants not just to see data, but to hear its story. And it can seem that for some visualisations the aesthetic overpowers the story.
+- Jim Carroll made this statement in response to a talk by Manuel Lima at BBH Labs in 2009
+
+The purpose of this spectrum is not to divide and categorize to help keep art and science and engineering apart but to show that both ends (and all points in between) are valid and meaningful expressions, and that the artist and the researcher should collaborate to develop new techniques and representations.
+- Some text to use
+
+
+- Aesthetic experience is already embedded in a range of human practices.
+- The complex relationship between aesthetic experience and the development of an ethical attitude towards the environment. 
+- Sometimes these are obviously aesthetic, when a proof or theory is described as beautiful. More often they are concepts that have a dominant aesthetic meaning and use but have been used in various non-aesthetic contexts so that their connection to the aesthetic has become more distant, although even in these cases the association with the aesthetic is understood within scientific discourse. The most commonly discussed examples of these concepts are harmony, symmetry and integrity. Harmony and integrity are key qualities of beauty in classical and medieval philosophy (especially Aquinas), and are closely connected to qualities such as order, balance and symmetry (Eco 1986).
+- When Leopold said that, ʻA thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community, wrong when it tends otherwiseʼ, he may well have intended for ʻintegrityʼ, ʻstabilityʼ and ʻbeautyʼ to have entailed each other rather than to be sharply distinguished (2000: 189). Variety and diversity are central concepts to understanding biodiversity, which in broad terms refers to the number, variety and variability of living things. Biodiversity is considered desirable for healthy ecosystems and more diverse species often contribute to the aesthetic appeal of an environment. But I want to get deeper here; to understand how biodiversity as a scientific concept entails the aesthetic concepts of diversity and variety. ʻBiodiversityʼ comes from ʻbio- logical diversityʼ, where ʻbiologicalʼ specifies the kind of diversity in question.Although one might claim that diversity is being used here differently than in aesthetics, I would argue that diversity (and variety) in itself has an aesthetic meaning, and that this meaning is carried into the biological use of the term. In common usage, ʻdiversityʼ and ʻvarietyʼ suggest richness and are contrasted with monotony, dullness, lack of interest – a kind of impoverished sameness. Variety and intricacy are named as central qualities of the eighteenth-century aesthetic theory and landscape taste of the ʻpicturesqueʼ, where garden design and scenery were valued for a diversity of elements and variety of forms and colours (Ross 1998: 133).
+*Emily Brady, Aesthetics in Practice: Valuing the Natural World, Environmental Values 15 (2006): 277–91*
+
+Software-based information visualization adds building blocks for interacting with and representing various kinds of abstract data, but typically these methods undervalue the aesthetic principles of visual design rather than embrace their strength as a necessary aid to effective communication.
+*Fry, Data Visualization p.5*
+
+Simulation vs. Theory-Theory and Social Cognition topics can be usefull
+- *Wilson_1999_MITCongnitiveScience p.765(898 at pdf)*
+
+John Dewey has pointed out that the unity of aesthetics and ethics is in fact reflected in our understanding of behaviour being "fair" - the word having a double meaning of attractive and morally acceptable. More recently, James Page has suggested that aesthetic ethics might be taken to form a philosophical rationale for peace education.
+- http://en.wikipedia.org/wiki/Aesthetics#Aesthetic_ethics
+
+* 5. Acknowledgment
+**   1. This research was conducted in summer school Extending July 2012 and .-.-.
+* 6. References
+**   1. [[http://sonification.de/handbook/][The Sonification Handbook]] edited by Thomas Hermann, Andy Hunt, John G. Neuhoff (chapter 5, 7, 11, 14)
+* 7. Appendix
+**   1. SC code
+**   2. oF code (visualization)
+
+* Other Stuff
+** Sonification technics
+- Parameter Mapping
+- Auditory Icons:Auditory icons mimic everyday non-speech sounds that we might be familiar with from our everyday experience of the real world, hence the meaning of the sounds seldom has to be learnt as they metaphorically draw upon our previous experiences. For example, deleting a document might be represented by the sound of crumpling a piece of paper; an application error may be represented by the sound of breaking glass or a similar destructive sound (Eoin Brazil and Mikael Fernström, Sonification Design and Aesthetics, p.325)
+- Earcons
+- chapter 11 interacting sonification
+
