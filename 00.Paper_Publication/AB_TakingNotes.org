@@ -54,14 +54,17 @@ The classical definition of visualization is “the process of forming a mental 
 *** 5. Ανάλυση των τεχνικών που χρησιμοποιούμε (τεχνικές OF)
 *** 6. Που αποσκοπεί;
 ** 4. Συγχρονισμός (AB)
-***      1. OSC
-***      2. Συζήτηση για το open source και γιατι είναι καλύτερο
+   As we mention before RANBiMos is a system consisting of two engines, sound and graphic, and the interpreter language (Interpreter and sound engine is SuperCollider). The communication between them has been achieved through OSC protocol (Wright 2005). This allow us to achieve synchronization in real-time by communicate both sound and graphic engine through the same interpreter. Each element(C, N, H etc) is both a musical and graphical event. This signifies the each element has his characteristics, behavior and data and while is presented, or, we call it, both sound and vision react simultaneity. The idea of representing element with event came from the programming language design for digital music synthesis, in which from the first expirements they try define a note, as the specification of an acoustic event (Loy 1985 id:7). 
+
+   The main target of the the synchronization is to reduce as much as possible the latency. RANBiMos is running in two computers one for sound and the other for graphics, connected through Ethrnet for comminication. This spilts the need of computing power and reduce the kernel latency.
+
+
 ** 5. Πλοήγηση στα δεδομένα (XK-AB)
-***      1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
-***      2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
-***      3. Ρυθμός διαβάσματος δεδομένων
+*** 1. Σχετικά με τις επιλογές που έγιναν για το τελικό οπτικοακουστικο αποτέλεσμα.
+*** 2. Αλγοριθμικό tape, real-time manipulation, GUI, performance, installation
+*** 3. Ρυθμός διαβάσματος δεδομένων
 * 4. Conclusions
-**  Summary about aesthetics and practices (AB)
+** Summary about aesthetics and practices (AB)
 
 *Greek*
  Στο συγκεκριμένο έργο γίνεται η προσπάθεια  παρουσίασης ενός βιομόριου (μιάς πρωτείνης). Στόχος αυτής της παρουσίασης είναι το αισθητικό αποτέλεσμα. Η φύση και κατ' επέκταση οι θετικές επιστήμες αποτελούν έμπνευση και εργαλείο στην ακπλήρωση του παραπάνου σκοπού.
@@ -124,7 +127,9 @@ Simulation vs. Theory-Theory and Social Cognition topics can be usefull
 
 John Dewey has pointed out that the unity of aesthetics and ethics is in fact reflected in our understanding of behaviour being "fair" - the word having a double meaning of attractive and morally acceptable. More recently, James Page has suggested that aesthetic ethics might be taken to form a philosophical rationale for peace education.
 - http://en.wikipedia.org/wiki/Aesthetics#Aesthetic_ethics
-**  Είναι perfromance τι σημαίνει αυτό, τι προδιαγραφές απιατούνται κ.α.
+** Είναι perfromance τι σημαίνει αυτό, τι προδιαγραφές απιατούνται κ.α.
+** Συζήτηση για το open source text-based programming (AB)
+Regarding composition, Roads (2001) identifies two key benefits of programming language representations: ”First, the compositional logic is made explicit, creating a system with a degree of formal consistency. Second, rather than abdicating decision- making to the computer, composers can use procedures to extend control over many more processes than they could manage with manual techniques.”
 
 * 5. Acknowledgment
 ** 1. This research was conducted in summer school Extending July 2012 and .-.-.
