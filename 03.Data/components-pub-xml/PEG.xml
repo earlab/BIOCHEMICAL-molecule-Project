@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PDBx:datablock datablockName="PEG"
+   xmlns:PDBx="http://pdbml.pdb.org/schema/pdbx-v40.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://pdbml.pdb.org/schema/pdbx-v40.xsd pdbx-v40.xsd">
+
+   <PDBx:chem_compCategory>
+      <PDBx:chem_comp id="PEG">
+         <PDBx:formula>C4 H10 O3</PDBx:formula>
+         <PDBx:formula_weight>106.120</PDBx:formula_weight>
+         <PDBx:name>DI(HYDROXYETHYL)ETHER</PDBx:name>
+         <PDBx:pdbx_ambiguous_flag>N</PDBx:pdbx_ambiguous_flag>
+         <PDBx:pdbx_formal_charge>0</PDBx:pdbx_formal_charge>
+         <PDBx:pdbx_ideal_coordinates_details>Corina</PDBx:pdbx_ideal_coordinates_details>
+         <PDBx:pdbx_ideal_coordinates_missing_flag>N</PDBx:pdbx_ideal_coordinates_missing_flag>
+         <PDBx:pdbx_initial_date>1999-07-08</PDBx:pdbx_initial_date>
+         <PDBx:pdbx_model_coordinates_db_code>1DP7</PDBx:pdbx_model_coordinates_db_code>
+         <PDBx:pdbx_model_coordinates_missing_flag>N</PDBx:pdbx_model_coordinates_missing_flag>
+         <PDBx:pdbx_modified_date>2012-07-20</PDBx:pdbx_modified_date>
+         <PDBx:pdbx_processing_site>RCSB</PDBx:pdbx_processing_site>
+         <PDBx:pdbx_release_status>REL</PDBx:pdbx_release_status>
+         <PDBx:pdbx_type>HETAIN</PDBx:pdbx_type>
+         <PDBx:three_letter_code>PEG</PDBx:three_letter_code>
+         <PDBx:type>non-polymer</PDBx:type>
+      </PDBx:chem_comp>
+   </PDBx:chem_compCategory>
+   <PDBx:chem_comp_atomCategory>
+      <PDBx:chem_comp_atom atom_id="C1" comp_id="PEG">
+         <PDBx:alt_atom_id>C1</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>41.441</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>37.075</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>46.961</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>C1</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-2.339</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.042</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.588</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>1</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>C</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="O1" comp_id="PEG">
+         <PDBx:alt_atom_id>O1</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>41.169</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>36.262</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>45.821</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>O1</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>Y</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-2.667</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.784</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.588</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>2</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>O</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="C2" comp_id="PEG">
+         <PDBx:alt_atom_id>C2</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>42.671</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>36.527</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>47.673</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>C2</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-1.162</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.890</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.292</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>3</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>C</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="O2" comp_id="PEG">
+         <PDBx:alt_atom_id>O2</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>42.583</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>35.973</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>49.017</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>O2</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>0.000</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.112</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.000</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>4</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>O</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="C3" comp_id="PEG">
+         <PDBx:alt_atom_id>C3</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.768</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>35.450</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>49.688</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>C3</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>1.162</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.890</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.292</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>5</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>C</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="C4" comp_id="PEG">
+         <PDBx:alt_atom_id>C4</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.382</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>34.037</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>50.091</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>C4</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>2.339</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.042</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.588</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>6</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>C</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="O4" comp_id="PEG">
+         <PDBx:alt_atom_id>O4</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>44.336</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>33.237</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>50.766</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>O4</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>2.667</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.784</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.589</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>7</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>O</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H11" comp_id="PEG">
+         <PDBx:alt_atom_id>H11</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>41.630</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>38.110</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>46.640</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H11</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-2.065</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.731</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-1.388</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>8</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H12" comp_id="PEG">
+         <PDBx:alt_atom_id>H12</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>40.579</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>37.054</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>47.644</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H12</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-3.201</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.549</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.897</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>9</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="HO1" comp_id="PEG">
+         <PDBx:alt_atom_id>HO1</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>40.403</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>36.596</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>45.369</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>HO1</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>Y</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-3.406</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-1.397</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.473</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>10</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H21" comp_id="PEG">
+         <PDBx:alt_atom_id>H21</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.071</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>35.727</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>47.032</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H21</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-0.969</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>1.519</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-1.161</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>11</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H22" comp_id="PEG">
+         <PDBx:alt_atom_id>H22</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.395</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>37.353</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>47.724</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H22</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>-1.403</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>1.519</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.565</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>12</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H31" comp_id="PEG">
+         <PDBx:alt_atom_id>H31</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>44.629</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>35.438</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>49.004</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H31</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>1.403</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>1.519</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.564</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>13</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H32" comp_id="PEG">
+         <PDBx:alt_atom_id>H32</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>44.012</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>36.054</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>50.574</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H32</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>0.969</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>1.518</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>1.162</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>14</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H41" comp_id="PEG">
+         <PDBx:alt_atom_id>H41</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>42.503</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>34.116</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>50.748</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H41</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>3.201</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.548</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.898</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>15</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="H42" comp_id="PEG">
+         <PDBx:alt_atom_id>H42</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.104</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>33.502</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>49.171</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>H42</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>2.065</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-0.731</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>1.387</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>16</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+      <PDBx:chem_comp_atom atom_id="HO4" comp_id="PEG">
+         <PDBx:alt_atom_id>HO4</PDBx:alt_atom_id>
+         <PDBx:charge>0</PDBx:charge>
+         <PDBx:model_Cartn_x>43.959</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>32.385</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>50.954</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>1</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>HO4</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>PEG</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>3.406</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>-1.397</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>-0.474</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>17</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>H</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+   </PDBx:chem_comp_atomCategory>
+   <PDBx:chem_comp_bondCategory>
+      <PDBx:chem_comp_bond atom_id_1="C1" atom_id_2="O1" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>1</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C1" atom_id_2="C2" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>2</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C1" atom_id_2="H11" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>3</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C1" atom_id_2="H12" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>4</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="O1" atom_id_2="HO1" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>5</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C2" atom_id_2="O2" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>6</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C2" atom_id_2="H21" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>7</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C2" atom_id_2="H22" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>8</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="O2" atom_id_2="C3" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>9</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C3" atom_id_2="C4" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>10</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C3" atom_id_2="H31" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>11</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C3" atom_id_2="H32" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>12</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C4" atom_id_2="O4" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>13</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C4" atom_id_2="H41" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>14</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="C4" atom_id_2="H42" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>15</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+      <PDBx:chem_comp_bond atom_id_1="O4" atom_id_2="HO4" comp_id="PEG">
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_ordinal>16</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:value_order>sing</PDBx:value_order>
+      </PDBx:chem_comp_bond>
+   </PDBx:chem_comp_bondCategory>
+   <PDBx:pdbx_chem_comp_auditCategory>
+      <PDBx:pdbx_chem_comp_audit action_type="Create component" comp_id="PEG" date="1999-07-08">
+         <PDBx:processing_site>RCSB</PDBx:processing_site>
+      </PDBx:pdbx_chem_comp_audit>
+      <PDBx:pdbx_chem_comp_audit action_type="Modify descriptor" comp_id="PEG" date="2011-06-04">
+         <PDBx:processing_site>RCSB</PDBx:processing_site>
+      </PDBx:pdbx_chem_comp_audit>
+      <PDBx:pdbx_chem_comp_audit action_type="Modify leaving atom flag" comp_id="PEG" date="2012-07-20">
+         <PDBx:processing_site>RCSB</PDBx:processing_site>
+      </PDBx:pdbx_chem_comp_audit>
+   </PDBx:pdbx_chem_comp_auditCategory>
+   <PDBx:pdbx_chem_comp_descriptorCategory>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="ACDLabs" program_version="12.01" type="SMILES">
+         <PDBx:descriptor>OCCOCCO</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="InChI" program_version="1.03" type="InChI">
+         <PDBx:descriptor>InChI=1S/C4H10O3/c5-1-3-7-4-2-6/h5-6H,1-4H2</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="InChI" program_version="1.03" type="InChIKey">
+         <PDBx:descriptor>MTHSVFCYNBDYFN-UHFFFAOYSA-N</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="CACTVS" program_version="3.370" type="SMILES_CANONICAL">
+         <PDBx:descriptor>OCCOCCO</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="CACTVS" program_version="3.370" type="SMILES">
+         <PDBx:descriptor>OCCOCCO</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="OpenEye OEToolkits" program_version="1.7.6" type="SMILES_CANONICAL">
+         <PDBx:descriptor>C(COCCO)O</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="PEG" program="OpenEye OEToolkits" program_version="1.7.6" type="SMILES">
+         <PDBx:descriptor>C(COCCO)O</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+   </PDBx:pdbx_chem_comp_descriptorCategory>
+   <PDBx:pdbx_chem_comp_identifierCategory>
+      <PDBx:pdbx_chem_comp_identifier comp_id="PEG" program="ACDLabs" program_version="12.01" type="SYSTEMATIC NAME">
+         <PDBx:identifier>2,2&apos;-oxydiethanol</PDBx:identifier>
+      </PDBx:pdbx_chem_comp_identifier>
+      <PDBx:pdbx_chem_comp_identifier comp_id="PEG" program="OpenEye OEToolkits" program_version="1.7.6" type="SYSTEMATIC NAME">
+         <PDBx:identifier>2-(2-hydroxyethyloxy)ethanol</PDBx:identifier>
+      </PDBx:pdbx_chem_comp_identifier>
+   </PDBx:pdbx_chem_comp_identifierCategory>
+</PDBx:datablock>

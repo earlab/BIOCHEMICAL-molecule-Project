@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PDBx:datablock datablockName="NA"
+   xmlns:PDBx="http://pdbml.pdb.org/schema/pdbx-v40.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://pdbml.pdb.org/schema/pdbx-v40.xsd pdbx-v40.xsd">
+
+   <PDBx:chem_compCategory>
+      <PDBx:chem_comp id="NA">
+         <PDBx:formula>Na</PDBx:formula>
+         <PDBx:formula_weight>22.990</PDBx:formula_weight>
+         <PDBx:name>SODIUM ION</PDBx:name>
+         <PDBx:pdbx_ambiguous_flag>N</PDBx:pdbx_ambiguous_flag>
+         <PDBx:pdbx_formal_charge>1</PDBx:pdbx_formal_charge>
+         <PDBx:pdbx_ideal_coordinates_missing_flag>N</PDBx:pdbx_ideal_coordinates_missing_flag>
+         <PDBx:pdbx_initial_date>1999-07-08</PDBx:pdbx_initial_date>
+         <PDBx:pdbx_model_coordinates_missing_flag>N</PDBx:pdbx_model_coordinates_missing_flag>
+         <PDBx:pdbx_modified_date>2011-06-04</PDBx:pdbx_modified_date>
+         <PDBx:pdbx_processing_site>RCSB</PDBx:pdbx_processing_site>
+         <PDBx:pdbx_release_status>REL</PDBx:pdbx_release_status>
+         <PDBx:pdbx_type>HETAI</PDBx:pdbx_type>
+         <PDBx:three_letter_code>NA</PDBx:three_letter_code>
+         <PDBx:type>non-polymer</PDBx:type>
+      </PDBx:chem_comp>
+   </PDBx:chem_compCategory>
+   <PDBx:chem_comp_atomCategory>
+      <PDBx:chem_comp_atom atom_id="NA" comp_id="NA">
+         <PDBx:alt_atom_id>NA</PDBx:alt_atom_id>
+         <PDBx:charge>1</PDBx:charge>
+         <PDBx:model_Cartn_x>0.000</PDBx:model_Cartn_x>
+         <PDBx:model_Cartn_y>0.000</PDBx:model_Cartn_y>
+         <PDBx:model_Cartn_z>0.000</PDBx:model_Cartn_z>
+         <PDBx:pdbx_align>0</PDBx:pdbx_align>
+         <PDBx:pdbx_aromatic_flag>N</PDBx:pdbx_aromatic_flag>
+         <PDBx:pdbx_component_atom_id>NA</PDBx:pdbx_component_atom_id>
+         <PDBx:pdbx_component_comp_id>NA</PDBx:pdbx_component_comp_id>
+         <PDBx:pdbx_leaving_atom_flag>N</PDBx:pdbx_leaving_atom_flag>
+         <PDBx:pdbx_model_Cartn_x_ideal>0.000</PDBx:pdbx_model_Cartn_x_ideal>
+         <PDBx:pdbx_model_Cartn_y_ideal>0.000</PDBx:pdbx_model_Cartn_y_ideal>
+         <PDBx:pdbx_model_Cartn_z_ideal>0.000</PDBx:pdbx_model_Cartn_z_ideal>
+         <PDBx:pdbx_ordinal>1</PDBx:pdbx_ordinal>
+         <PDBx:pdbx_stereo_config>N</PDBx:pdbx_stereo_config>
+         <PDBx:type_symbol>NA</PDBx:type_symbol>
+      </PDBx:chem_comp_atom>
+   </PDBx:chem_comp_atomCategory>
+   <PDBx:pdbx_chem_comp_auditCategory>
+      <PDBx:pdbx_chem_comp_audit action_type="Create component" comp_id="NA" date="1999-07-08">
+         <PDBx:processing_site>RCSB</PDBx:processing_site>
+      </PDBx:pdbx_chem_comp_audit>
+      <PDBx:pdbx_chem_comp_audit action_type="Modify descriptor" comp_id="NA" date="2011-06-04">
+         <PDBx:processing_site>RCSB</PDBx:processing_site>
+      </PDBx:pdbx_chem_comp_audit>
+   </PDBx:pdbx_chem_comp_auditCategory>
+   <PDBx:pdbx_chem_comp_descriptorCategory>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="ACDLabs" program_version="10.04" type="SMILES">
+         <PDBx:descriptor>[Na+]</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="CACTVS" program_version="3.341" type="SMILES_CANONICAL">
+         <PDBx:descriptor>[Na+]</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="CACTVS" program_version="3.341" type="SMILES">
+         <PDBx:descriptor>[Na+]</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="OpenEye OEToolkits" program_version="1.5.0" type="SMILES_CANONICAL">
+         <PDBx:descriptor>[Na+]</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="OpenEye OEToolkits" program_version="1.5.0" type="SMILES">
+         <PDBx:descriptor>[Na+]</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="InChI" program_version="1.03" type="InChI">
+         <PDBx:descriptor>InChI=1S/Na/q+1</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+      <PDBx:pdbx_chem_comp_descriptor comp_id="NA" program="InChI" program_version="1.03" type="InChIKey">
+         <PDBx:descriptor>FKNQFGJONOIPTF-UHFFFAOYSA-N</PDBx:descriptor>
+      </PDBx:pdbx_chem_comp_descriptor>
+   </PDBx:pdbx_chem_comp_descriptorCategory>
+   <PDBx:pdbx_chem_comp_identifierCategory>
+      <PDBx:pdbx_chem_comp_identifier comp_id="NA" program="ACDLabs" program_version="10.04" type="SYSTEMATIC NAME">
+         <PDBx:identifier>sodium</PDBx:identifier>
+      </PDBx:pdbx_chem_comp_identifier>
+      <PDBx:pdbx_chem_comp_identifier comp_id="NA" program="OpenEye OEToolkits" program_version="1.5.0" type="SYSTEMATIC NAME">
+         <PDBx:identifier>sodium(+1) cation</PDBx:identifier>
+      </PDBx:pdbx_chem_comp_identifier>
+   </PDBx:pdbx_chem_comp_identifierCategory>
+</PDBx:datablock>

@@ -1,46 +1,51 @@
 // Load the xml Document
-d = DOMDocument("/Users/stratosbichakis/Documents/SuperCollider files/BIOCHEMICAL-molecule-Project/03.Data/3SPX.xml");
+d = DOMDocument("../03.Data/3SPX.xml".resolveRelative);
 
-//Create a Dictionary consisting of Lists fot atom_site data
 
-(
+( //Create a Dictionary consisting of Ordered Lists for each atom_site data type
 var names, category;
 category = d.getDocumentElement.getElement("PDBx:atom_siteCategory");
 names = category.getFirstChild.getChildNodes.collect(_.getNodeName);
+
 ~atom_site = ();
-~atom_site.put('id', category.getChildNodes.collectAs({|item| item.getAttribute("id").asInteger}, List));
-names.do({|name| ~atom_site.put(name.asSymbol, category.getChildNodes.collectAs({|item| item.getElement(name).getText}, List))});
+names.do({|name| ~atom_site.put(
+		name.select({|item, i| i >= 5}).asSymbol,
+		Order.newFromIndices(
+			category.getChildNodes.collect({|item|
+				item.getElement(name).getText}),
+			category.getChildNodes.collect({|item|
+				item.getAttribute("id").asInteger})))});
+
+~atom_site.keysValuesChange({|key, elem|
+	switch
+	(key,
+		'label_seq_id',		{elem.collect({|item| if(item!=nil,{item.asInteger})})},
+		'auth_seq_id',		{elem.collect({|item| if(item!=nil,{item.asInteger})})},
+		'label_entity_id',	{elem.collect({|item| if(item!=nil,{item.asInteger})})},
+		'Cartn_x',			{elem.collect({|item| if(item!=nil,{item.asFloat})})},
+		'Cartn_y',			{elem.collect({|item| if(item!=nil,{item.asFloat})})},
+		'Cartn_z',			{elem.collect({|item| if(item!=nil,{item.asFloat})})},
+		'B_iso_or_equiv',	{elem.collect({|item| if(item!=nil,{item.asFloat})})},
+		'occupancy',		{elem.collect({|item| if(item!=nil,{item.asFloat})})},
+		{elem})
+	});
+"ok";
+)
+
+( //Create a Dictionary consisting of Ordered Lists for each amino acid
+var category;
+category = d.getDocumentElement.getElement("PDBx:entity_poly_seqCategory");
+
+~entity_poly_seq = Order.newFromIndices(
+			category.getChildNodes.collect({|item|
+				item.getAttribute("mon_id")}),
+			category.getChildNodes.collect({|item|
+				item.getAttribute("num").asInteger}));
+"ok";
 )
 
 //access a specific entry, with index [i]
-~atom_site.keys.do({|name| postf("%\t\t%\n", name, ~atom_site[name][4])})
-
-// Simple SynthDef for multitude assignment
-Ndef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));})
-SynthDef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));}).add
-
-(	//a simple Task
-t = Task({
-	x = Ndef(\test);
-	~atom_site['id'].do({|item, i|
-		x.set(\mul, ~atom_site['PDBx:B_iso_or_equiv'][i].asFloat/~atom_site['PDBx:B_iso_or_equiv'].asFloat.maxItem);
-	0.1.wait;
-	});
-});
-)
-
-t.start; x.play
-
-t.stop;x.free;
-
-( 	// a simple Pattern
-var list;
-list = ~atom_site['PDBx:B_iso_or_equiv'].collect(_.asFloat/~atom_site['PDBx:B_iso_or_equiv'].asFloat.maxItem);
-p = Pmono(\test,
-	\mul, Pseq(list),
-	\dur, 0.02).play
-)
-
+~atom_site.keys.do({|name| postf("%\t\t%\n", name, ~atom_site[name][1])});
 
 // Calculate torsion angles phi[C-1, N, CA, C] and psi[N, CA, C, N2]
 (
@@ -59,63 +64,69 @@ p = Pmono(\test,
 	e = ~crossFromCart.(a, b, c);
 	f = ~crossFromCart.(d, c, b);
 	g = (e*f).sum/(sqrt(e.collect(_.squared).sum)*sqrt(f.collect(_.squared).sum));
-	t = ((g/abs(g))*acos(g)*180/pi).round(0.1);
+	t = (sign(g)*acos(g)*180/pi).round(0.1);
 };
 )
 
 (
-~torsionAngle = {|seq_id|
-var indexCAp, indexCp, indexN, indexCA, indexC, indexNa;		//indexes
+~torsionAngles = {|seq_id|
+var indexCAp, indexCp, indexN, indexCA, indexC, indexNa;		//indeces
 var carCAp, carCp, carN, carCA, carC, carNa;				//Cartesian
 var phi, psi, omega;
 
-indexCAp = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == (seq_id - 1) &&
-	~atom_site['PDBx:label_atom_id'][i]=="CA"});
+indexCAp = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == (seq_id - 1) &&
+		~atom_site['label_atom_id'][i]=="CA"});
 
-indexCp = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == (seq_id - 1) &&
-	~atom_site['PDBx:label_atom_id'][i]=="C"});
+indexCp = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == (seq_id - 1) &&
+		~atom_site['label_atom_id'][i]=="C"});
 
-indexN = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == seq_id &&
-	~atom_site['PDBx:label_atom_id'][i]=="N"});
+indexN = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == seq_id &&
+		~atom_site['label_atom_id'][i]=="N"});
 
-indexCA = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == seq_id &&
-	~atom_site['PDBx:label_atom_id'][i]=="CA"});
+indexCA = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == seq_id &&
+		~atom_site['label_atom_id'][i]=="CA"});
 
-indexC = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == seq_id &&
-	~atom_site['PDBx:label_atom_id'][i]=="C"});
+indexC = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == seq_id &&
+		~atom_site['label_atom_id'][i]=="C"});
 
-indexNa = ~atom_site['PDBx:label_seq_id'].detectIndex({|item, i| 					~atom_site['PDBx:label_seq_id'][i].asInteger == (seq_id + 1) &&
-	~atom_site['PDBx:label_atom_id'][i]=="N"});
+indexNa = ~atom_site['label_seq_id'].detectIndex({|item, i|
+		item == (seq_id + 1) &&
+		~atom_site['label_atom_id'][i]=="N"});
 
 carCAp = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexCAp].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexCAp].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexCAp].asFloat);
+	x: ~atom_site['Cartn_x'][indexCAp],
+	y: ~atom_site['Cartn_y'][indexCAp],
+	z: ~atom_site['Cartn_z'][indexCAp]);
 
 carCp = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexCp].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexCp].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexCp].asFloat);
+	x: ~atom_site['Cartn_x'][indexCp],
+	y: ~atom_site['Cartn_y'][indexCp],
+	z: ~atom_site['Cartn_z'][indexCp]);
 
 carN = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexN].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexN].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexN].asFloat);
+	x: ~atom_site['Cartn_x'][indexN],
+	y: ~atom_site['Cartn_y'][indexN],
+	z: ~atom_site['Cartn_z'][indexN]);
 
 carCA = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexCA].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexCA].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexCA].asFloat);
+	x: ~atom_site['Cartn_x'][indexCA],
+	y: ~atom_site['Cartn_y'][indexCA],
+	z: ~atom_site['Cartn_z'][indexCA]);
 
 carC = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexC].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexC].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexC].asFloat);
+	x: ~atom_site['Cartn_x'][indexC],
+	y: ~atom_site['Cartn_y'][indexC],
+	z: ~atom_site['Cartn_z'][indexC]);
 
 carNa = Cartesian(
-	x: ~atom_site['PDBx:Cartn_x'][indexNa].asFloat,
-	y: ~atom_site['PDBx:Cartn_y'][indexNa].asFloat,
-	z: ~atom_site['PDBx:Cartn_z'][indexNa].asFloat);
+	x: ~atom_site['Cartn_x'][indexNa],
+	y: ~atom_site['Cartn_y'][indexNa],
+	z: ~atom_site['Cartn_z'][indexNa]);
 
 phi = ~torFromCart.value(carCp, carN, carCA, carC);
 psi = ~torFromCart.value(carN, carCA, carC, carNa);
@@ -125,12 +136,87 @@ omega = ~torFromCart.value(carCAp, carCp, carN, carCA);
 )
 
 //number of amino acids
-~atom_site['PDBx:label_seq_id'].select({|item, i| item != nil}).asInteger.maxItem
+~atom_site['label_seq_id'].select({|item| item != nil}).maxItem
+//or
+~atom_site['label_seq_id'].at(~atom_site['label_seq_id'].lastIndexForWhich({|item| item != nil}))
 
-318.do({|i| ~torsionAngle.(i+3).postln})
-318.collect({|i| ~torsionAngle.(i+3)[0]}).plot
-318.collect({|i| ~torsionAngle.(i+3)[1]}).plot
-318.collect({|i| ~torsionAngle.(i+3)[2]}).plot
+~torsionAnglesList = Order.fill(318, {|i| ~torsionAngles.(i+3)})
+~torsionAnglesList.flop.plot
+
 
 // isotropic displacement mean for each Amino Acid
-318.collect({|seq_id| ~atom_site['PDBx:B_iso_or_equiv'].select({|item, i| ~atom_site['PDBx:label_seq_id'][i] ==(seq_id+3).asString }).collect(_.asFloat).mean.round(0.01)}).plot;
+~b_isoList = 318.collect({|seq_id| ~atom_site['B_iso_or_equiv'].select({|item, i| ~atom_site['label_seq_id'][i] ==(seq_id+3)}).mean.round(0.01)});
+
+
+
+(	// Included ligands
+var category;
+category = d.getDocumentElement.getElement("PDBx:chem_compCategory");
+~chem_comps = category.getChildNodes.collect({|item|
+				item.getAttribute("id")});
+"ok";
+)
+
+// Access the specific xml files for each amino Acid
+(
+~chem_compsDocuments = Dictionary.fill(~chem_comps.size,
+	{|i| ~chem_comps[i].asSymbol ->
+		DOMDocument("~/Downloads/components-pub-xml/".standardizePath +/+
+			~chem_comps[i] ++".xml")} );
+)
+~chem_compsDocuments[\ALA]
+
+
+~sheetCat = d.getElementsByTagName("PDBx:struct_sheet_range");
+~sheetBeg = ~sheetCat.collect({|item, i| item.getElement 						("PDBx:beg_label_seq_id").getText.asInteger;});
+~sheetEnd = ~sheetCat.collect({|item, i| item.getElement 						("PDBx:end_label_seq_id").getText.asInteger;});
+~helixCat = d.getElementsByTagName("PDBx:struct_conf");
+~helixBeg = ~helixCat.collect({|item, i| item.getElement 						("PDBx:beg_label_seq_id").getText.asInteger;});
+~helixEnd = ~helixCat.collect({|item, i| item.getElement 						("PDBx:end_label_seq_id").getText.asInteger;});
+
+
+
+//-------------------------Sound Examples---------------------------
+// Simple SynthDef for multitude assignment
+Ndef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));})
+SynthDef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));}).add
+SynthDef(\sine, {|mul = 0.3, angle = 0, fb, pan = 0| Out.ar(0, Pan2.ar(SinOscFB.ar(800+(angle*0.8), fb*0.05, mul), pan));}, [0, 0.01, 0.02]).add
+
+(//a simple Task
+x = Ndef(\test);
+t = Task({loop{
+	~atom_site['B_iso_or_equiv'].doRange({|item, i|
+		x.set(\mul, item/~atom_site['B_iso_or_equiv'].maxItem);
+	0.1.wait;
+		},
+		from: ~atom_site['label_seq_id'].detectIndex({|item| item == 2}),
+	      to: ~atom_site['label_seq_id'].lastIndexForWhich({|item| item == 22}));
+}});
+)
+
+(//a simple Task of angles Sonification
+
+t = Task({
+	x = Array.fill(3, {Synth(\sine)});
+	loop{
+	~torsionAnglesList.doRange({|item, i|
+			x[0].set(\angle, item[0], \fb, ~b_isoList[i], \pan, -1);
+			x[1].set(\angle, item[1], \fb, ~b_isoList[i], \pan, 1);
+			x[2].set(\angle, item[2], \fb, ~b_isoList[i], \pan, 0, \mul, 0);
+			// To Do: add percussive sounds on helix and sheet beginning
+
+	0.12.wait;
+}, 0,310 )}});
+)
+
+t.start;
+t.reset;
+x.do(_.free);
+
+( 	// a simple Pattern
+var list;
+list = ~atom_site['B_iso_or_equiv'].collectAs(_/~atom_site['B_iso_or_equiv'].maxItem, List);
+p = Pmono(\test,
+	\mul, Pseq(list),
+	\dur, 0.02).play
+)

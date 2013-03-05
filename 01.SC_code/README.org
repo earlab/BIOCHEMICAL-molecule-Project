@@ -5,3 +5,6 @@
 - Use relative path Platform.userExtensionDir.asString ++ "/BIOCHEMICAL-molecule-Project/03.Data/
 example:
 d = DOMDocument(Platform.userExtensionDir.asString ++ "/BIOCHEMICAL-molecule-Project/03.Data/3SPX.xml");
+
+- better solution
+d = DOMDocument("../03.Data/3SPX.xml".resolveRelative);
