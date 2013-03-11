@@ -180,8 +180,10 @@ category = d.getDocumentElement.getElement("PDBx:chem_compCategory");
 // Simple SynthDef for multitude assignment
 Ndef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));})
 SynthDef(\test, {|mul = 0.3| Out.ar(0, Pan2.ar(WhiteNoise.ar(mul), 0));}).add
-SynthDef(\sine, {|mul = 0.3, angle = 0, fb, pan = 0| Out.ar(0, Pan2.ar(SinOscFB.ar(800+(angle*0.8), fb*0.05, mul), pan));}, [0, 0.01, 0.02]).add
-
+(
+SynthDef(\sine, {|mul = 0.58, angle = 0, fb, pan = 0|
+	Out.ar(0, Pan2.ar(HPF.ar(SinOsc.ar(45+(angle*0.2), 0, mul: mul)*SinOsc.ar([85, 110]).clip(-0.6, 0.6), 1000), pan));}, [0, 1, 1]).add
+)
 (//a simple Task
 x = Ndef(\test);
 t = Task({loop{
@@ -198,7 +200,7 @@ t = Task({loop{
 
 t = Task({
 	x = Array.fill(3, {Synth(\sine)});
-	loop{
+
 	~torsionAnglesList.doRange({|item, i|
 			x[0].set(\angle, item[0], \fb, ~b_isoList[i], \pan, -1);
 			x[1].set(\angle, item[1], \fb, ~b_isoList[i], \pan, 1);
@@ -206,12 +208,17 @@ t = Task({
 			// To Do: add percussive sounds on helix and sheet beginning
 
 	0.12.wait;
-}, 0,310 )}});
+}, 0,310 );
+1.wait;
+	x.do(_.free);
+});
 )
 
 t.start;
 t.reset;
 x.do(_.free);
+
+{Silent.ar()!.scope
 
 ( 	// a simple Pattern
 var list;
